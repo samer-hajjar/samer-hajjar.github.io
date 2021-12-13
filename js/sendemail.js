@@ -29,7 +29,7 @@ function courseSendEmail() {
             "<html><br></br><p style=\"display:inline\">Applicant email: </p></html>" + document.getElementById("formemail").value +
             "<html><br></br><p style=\"display:inline\">Message from applicant: </p></html>" + document.getElementById("formcomment").value,
     });
-    console.log("File read successfully");
+    alert("You have been enrolled in the course!");
 }
 
 var jobnamekeyword = document.getElementById("jobname").innerHTML;
