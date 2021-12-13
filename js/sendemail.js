@@ -13,7 +13,7 @@ function sendEmail() {
             "<html><br></br><p style=\"display:inline\">Applicant email: </p></html>" + document.getElementById("formemail").value +
             "<html><br></br><p style=\"display:inline\">Message from applicant: </p></html>" + document.getElementById("formcomment").value,
     });
-    console.log("File read successfully");
+    alert("Job application sent!");
 }
 
 function courseSendEmail() {
@@ -29,7 +29,7 @@ function courseSendEmail() {
             "<html><br></br><p style=\"display:inline\">Applicant email: </p></html>" + document.getElementById("formemail").value +
             "<html><br></br><p style=\"display:inline\">Message from applicant: </p></html>" + document.getElementById("formcomment").value,
     });
-    alert("You have been enrolled in the course!");
+    alert("Course enrollement sent!");
 }
 
 var jobnamekeyword = document.getElementById("jobname").innerHTML;
