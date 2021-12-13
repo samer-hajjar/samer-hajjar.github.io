@@ -14,7 +14,7 @@ function sendEmail() {
             "<html><br></br><p style=\"display:inline\">Message from applicant: </p></html>" + document.getElementById("formcomment").value,
     });
     alert("Job application sent!");
-}
+};
 
 function courseSendEmail() {
     Email.send({
@@ -30,7 +30,7 @@ function courseSendEmail() {
             "<html><br></br><p style=\"display:inline\">Message from applicant: </p></html>" + document.getElementById("formcomment").value,
     });
     alert("Course enrollement sent!");
-}
+};
 
 var jobnamekeyword = document.getElementById("jobname").innerHTML;
 var finalname = jobnamekeyword.replace(" ", "%20");
