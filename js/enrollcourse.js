@@ -18,5 +18,6 @@ function courseSendEmail() {
 };
 
 function setParameter() {
-    var param = this.alt
+    var param = this.alt;
+    console.log(param);
 }
