@@ -24,7 +24,7 @@ function courseSendEmail() {
         To: 'ahmad.ismail@publicismedia.com',
         From: "hacklab2021@gmail.com",
         Subject: "New Course Enrollment Submitted",
-        Body: "<html><p>A new course enrollment has been submitted.</p><br></br><p style=\"display:inline\">Course: </p></html>" + document.getElementById("jobname").innerHTML +
+        Body: "<html><p>A new course enrollment has been submitted.</p><br></br><p style=\"display:inline\">Course: </p></html>" + document.getElementById("coursename").innerHTML +
             "<html><br></br><p style=\"display:inline\">Applicant name: </p></html>" + document.getElementById("formname").value +
             "<html><br></br><p style=\"display:inline\">Applicant email: </p></html>" + document.getElementById("formemail").value +
             "<html><br></br><p style=\"display:inline\">Message from applicant: </p></html>" + document.getElementById("formcomment").value,
