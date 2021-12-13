@@ -39,7 +39,7 @@ html {
 section.features {
     padding-top: 35px;
     padding-bottom: 25px;
-    background-color: whitesmoke;
+    background-color: #FFFFFF;
 }
 
 .feature-holder h3 {
@@ -93,7 +93,7 @@ section.online-courses,
 
 .classroom-training,
 .page-content {
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
 }
 
 .reviews-slider {

@@ -15,11 +15,3 @@ function enrollCourse() {
     });
     alert("Course enrollement request sent!");
 };
-
-<<<<<<< HEAD
-=======
-function setParameter() {
-    var param = this.alt;
-    console.log(param);
-}
->>>>>>> fca6aac1805dc5f62f0657445fe21291eb0ba31d
