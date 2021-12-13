@@ -73,7 +73,7 @@
     <!-- Home Banner -->
 
     <!-- Page Content -->
-    <section class="page-content">
+    <section class="page-content" id="page">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-8 btn-center">
@@ -325,7 +325,8 @@
                             <li>
                                 <div class="card">
                                     <div class="card-body">
-                                        <img style="width: 70px; height: 70px; padding-top: 0px;" src="img/female.png" alt="">
+                                        <img style="width: 70px; height: 70px; padding-top: 0px;" src="img/female.png"
+                                            alt="">
                                         <h6 class="card-title">Mia</h6>
                                         <!-- <h5 class="star">
                                         <i class="fas fa-star"></i>
@@ -548,6 +549,26 @@
             });
         })
     </script>
+
+    <!-- Background animation -->
+    <script src="js/three.r119.min.js"></script>
+    <script src="js/vanta.net.min.js"></script>
+    <script>
+        VANTA.NET({
+            el: "#page",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundColor: 0xffffff
+        })
+    </script>
+    <!-- End background animation -->
+
+
 </body>
 
 </html>
