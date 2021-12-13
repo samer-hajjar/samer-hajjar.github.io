@@ -13,7 +13,8 @@ function courseSendEmail() {
             "<html><br></br><p style=\"display:inline\">Applicant email: </p></html>" + document.getElementById("formemail").value +
             "<html><br></br><p style=\"display:inline\">Message from applicant: </p></html>" + document.getElementById("formcomment").value,
     });
-    alert("Course enrollement sent!");
+    alert("Course enrollement request sent!");
+    console.log("Course enrollement request sent!");
 };
 
 function setParameter() {
