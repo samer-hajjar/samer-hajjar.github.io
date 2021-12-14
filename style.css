@@ -80,8 +80,7 @@ section.online-courses,
 .review-text-widget {
     text-align: center;
     margin-bottom: 25px;
-    min-height: 504px;
-    max-height: 504px;
+
 }
 
 .online-course-card .card-title {
@@ -351,4 +350,9 @@ section.copy p {
 .email-form {
     text-align: center;
     padding: 20px;
+}
+
+.cardheight {
+    min-height: 504px;
+    max-height: 504px;
 }
