@@ -338,6 +338,7 @@ section.copy p {
 }
 
 .card-header {
+    font-weight: bold;
     text-align: center;
     border-top: 1px solid rgba(0, 0, 0, .125)
 }
@@ -356,11 +357,13 @@ section.copy p {
     min-height: 504px;
     max-height: 504px;
 }
-.sidebar-outer {
-    position: relative;
+.profileinfo {
+    margin-bottom: 15px;
+    width: 50%;;
 }
-@media (min-width: 768px) {
-    .sidebar {
-        position: fixed;
-    }
+.profiletitle {
+    text-align: center;
+}
+.profilesection {
+    padding-top: 15px;
 }
