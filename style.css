@@ -80,6 +80,8 @@ section.online-courses,
 .review-text-widget {
     text-align: center;
     margin-bottom: 25px;
+    min-height: 504px;
+    max-height: 504px;
 }
 
 .online-course-card .card-title {
