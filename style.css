@@ -359,11 +359,12 @@ section.copy p {
 }
 .profileinfo {
     margin-bottom: 15px;
-    width: 50%;;
+    width: 50%;
 }
 .profiletitle {
     text-align: center;
 }
 .profilesection {
     padding-top: 15px;
+    justify-content: center;
 }
