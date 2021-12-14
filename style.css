@@ -24,8 +24,8 @@ html {
 }
 
 .main-banner {
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 30px;
     background-image: url(img/Banner.jpg);
     background-size: cover;
     color: white;
@@ -355,4 +355,12 @@ section.copy p {
 .cardheight {
     min-height: 504px;
     max-height: 504px;
+}
+.sidebar-outer {
+    position: relative;
+}
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+    }
 }

@@ -48,13 +48,12 @@
                         <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact Us</a>
                     </li>
                 </ul>
-                <div class="d-flex" style="margin-right: 20px;">
+                <div class="d-flex" style="margin-right: 20px; margin-bottom: 5px; margin-top: 5px;">
                     <a href="#" data-toggle="modal" data-target="#register_online"
                         class="btn btn-sm btn-primary">Register</a>
                 </div>
-                <div class="d-flex" style="margin-right: 20px;">
-                    <a href="#" data-toggle="modal" data-target="#login_online"
-                        class="btn btn-sm btn-primary">Login</a>
+                <div class="d-flex" style="margin-right: 20px; margin-bottom: 5px; margin-top: 5px;">
+                    <a href="#" data-toggle="modal" data-target="#login_online" class="btn btn-sm btn-primary">Login</a>
                 </div>
             </div>
         </div>
@@ -76,12 +75,14 @@
                 <div class="col-lg-6 col-md-6">
                     <form>
                         <div class="input-group mb-3">
-                            <input type="search" class="form-control form-control-sm" placeholder="Search for.."
+                            <input type="search" class="form-control form-control-sm" placeholder="Search"
                                 aria-label="Recipient's username" aria-describedby="button-addon2">
+                            
                             <button class="btn btn-primary" type="submit">
                                 <i class="fas fa-search"></i>
                             </button>
                         </div>
+                        <input type="location" class="form-control form-control-sm" placeholder="Location">
                     </form>
                 </div>
             </div>
@@ -93,6 +94,20 @@
     <section class="page-content">
         <div class="container">
             <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="card" style="margin-bottom: 15px;">
+                        <div class="card-header" style="text-align: left;">Username</div>
+                        <main class="card-body">
+                            <h6>Job title</h6>
+                            <h6>City, Country</h6>
+                            <hr>
+                            <h6>Find the job you'll love!</h6>
+                            <h6 style="color: grey;">Next Step: Add Employment History</h6>
+                            <progress value="25" max="100" style="width: 80%;">25%</progress>
+                            <a href="#" class="btn btn-sm btn-primary" style="margin-top: 20px;">Finish Your Profile</a>
+                        </main>
+                    </div>
+                </div>
                 <div class="col-lg-8 col-md-8 btn-center">
                     <div class="card">
                         <div class="card-header">What is Publicis Groupe?</div>
@@ -124,7 +139,9 @@
                     </div>
                 </div>
 
-
+                <div class="col-lg-4 col-md-4">
+                    <div class="card"></div>
+                </div>
 
                 <div class="col-lg-8 col-md-8 btn-center" style="padding-top: 10px;">
                     <div class="card">
@@ -634,15 +651,15 @@
                 <div class="custom-divider"></div>
                 <div class="modal-body">
                     <p style="font-size: 15px;">
-                        Create a profile and attach your resume so you will be considered for any future position that might suite your skills.
+                        Create a profile and attach your resume so you will be considered for any future position that
+                        might suite your skills.
                     </p>
                     <form>
                         <div class="mb-3">
                             <input type="text" class="form-control form-control-sm" placeholder="Your Name" required>
                         </div>
                         <div class="mb-3">
-                            <input type="email" class="form-control form-control-sm" placeholder="Your Email"
-                                required>
+                            <input type="email" class="form-control form-control-sm" placeholder="Your Email" required>
                         </div>
                         <div class="mb-3">
                             <input type="tel" class="form-control form-control-sm" placeholder="Phone" required>
@@ -682,8 +699,7 @@
                     </p>
                     <form>
                         <div class="mb-3">
-                            <input type="email" class="form-control form-control-sm" placeholder="Email"
-                                required>
+                            <input type="email" class="form-control form-control-sm" placeholder="Email" required>
                         </div>
                         <div class="mb-3">
                             <input type="password" class="form-control form-control-sm" placeholder="Password" required>
