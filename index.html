@@ -48,6 +48,14 @@
                         <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact Us</a>
                     </li>
                 </ul>
+                <div class="d-flex" style="margin-right: 20px;">
+                    <a href="#" data-toggle="modal" data-target="#register_online"
+                        class="btn btn-sm btn-primary">Register</a>
+                </div>
+                <div class="d-flex" style="margin-right: 20px;">
+                    <a href="#" data-toggle="modal" data-target="#login_online"
+                        class="btn btn-sm btn-primary">Login</a>
+                </div>
             </div>
         </div>
     </nav>
@@ -126,10 +134,10 @@
                             </h4>
 
                             <p>Publicis Groupe is famous for its main office complex, which is basically a playground
-                                for adults. With great company, it’s a place most people only dream of working at.
+                                for adults. With great company, it's a place most people only dream of working at.
                             </p>
                             <p>The overall configuration of your office should also be taken into account. For example,
-                                if teamwork is one of your most treasured values, you’re hurting yourself if your office
+                                if teamwork is one of your most treasured values, you're hurting yourself if your office
                                 is nothing but a series of cubicles that cut team members off from one
                                 another unlike the Groupe’s offices around the globe.
                             </p>
@@ -148,7 +156,7 @@
 
                                 <li>
                                     <h5>Sense of belonging</h5>
-                                    <p>During work hours, not only do you feel at home, but the balance between one’s
+                                    <p>During work hours, not only do you feel at home, but the balance between one's
                                         work and mental state is quite interesting</p>
                                 </li>
 
@@ -612,6 +620,84 @@
         </div>
     </section>
     <!-- Copy -->
+
+    <!-- Register Online Popup -->
+    <div class="modal fade" id="register_online" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Register Online</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="custom-divider"></div>
+                <div class="modal-body">
+                    <p style="font-size: 15px;">
+                        Create a profile and attach your resume so you will be considered for any future position that might suite your skills.
+                    </p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control form-control-sm" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control form-control-sm" placeholder="Your Email"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control form-control-sm" placeholder="Phone" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control form-control-sm" placeholder="Password" required>
+                        </div>
+                        <div class="mb-3">
+                            <label style="font-size: 12px;">Attach Resume</label>
+                            <input type="file" class="form-control form-control-sm" placeholder="Resume" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="submit" class="btn btn-primary btn-block btn-sm" value="Regsiter Online Now">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Register Online Popup -->
+
+    <!-- Login Popup -->
+    <div class="modal fade" id="login_online" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Register Online</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="custom-divider"></div>
+                <div class="modal-body">
+                    <p style="font-size: 15px;">
+                        Login to check out your profile, courses and job applications.
+                    </p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control form-control-sm" placeholder="Email"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control form-control-sm" placeholder="Password" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="submit" class="btn btn-primary btn-block btn-sm" value="Login">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login Popup -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
